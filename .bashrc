@@ -110,6 +110,7 @@ fi
 #fi
 
 #custom functions
+## params : old_repo, folder_name, new_repo
 clonerepo() {
     git clone --mirror $1 $2
     cd $2
